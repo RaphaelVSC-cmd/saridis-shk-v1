@@ -528,12 +528,7 @@ function initDemoTracker() {
 
     // 1. Telegram Push
     try {
-      fetch('https://api.telegram.org/bot8932370815:AAEfF_FRLC12FTFwoa9uRrizlARluM8KYxE/sendMessage', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ chat_id: '5942652345', text: message }),
-        keepalive: true
-      }).catch(() => {});
+      /* Legacy Telegram Alert disabled in favor of nexbot-radar.js */
     } catch (_) {}
 
     // 2. Formspree Backup
