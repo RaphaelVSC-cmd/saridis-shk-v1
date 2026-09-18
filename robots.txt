@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /bewertung.html
+
+Sitemap: https://saridis-shk-v1.vercel.app/sitemap.xml

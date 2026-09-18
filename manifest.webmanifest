@@ -1,0 +1,16 @@
+{
+  "name": "Saridis SHK - Sanitärtechnik & Heizungsbau Ingolstadt",
+  "short_name": "Saridis SHK",
+  "description": "Meisterbetrieb für staubfreie Badsanierungen, moderne Wärmepumpen & Heizungstausch in Ingolstadt. 5,0 Sterne Meisterqualität.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0E13",
+  "theme_color": "#E26D35",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

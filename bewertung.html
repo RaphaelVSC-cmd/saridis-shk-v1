@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bewertungs-Tool – Saridis SHK Ingolstadt</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="bewertung-container">
+    <div class="bewertung-card">
+      <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:var(--sp-4)">
+        <span style="display:inline-flex;align-items:center;justify-content:center;width:2.5rem;height:2.5rem;border-radius:50%;background:rgba(226,109,53,0.15);color:var(--sc-accent);font-weight:700">★</span>
+        <span style="font-family:var(--font-mono);font-size:0.8125rem;color:var(--sc-accent);letter-spacing:0.08em;text-transform:uppercase">Internes Werkzeug</span>
+      </div>
+      <h1>Kundenbewertung anfordern</h1>
+      <p class="bewertung-subtitle">Nach einem abgeschlossenen Sanitär- oder Heizungsauftrag in wenigen Sekunden eine personalisierte Bewertungsanfrage per WhatsApp an den Kunden senden.</p>
+
+      <form id="bewertungForm">
+        <div class="form-field">
+          <label for="bKundenname">Kundenname *</label>
+          <input type="text" id="bKundenname" name="kundenname" class="form-input"
+                 placeholder="z.B. Herr Gruber" required autocomplete="name">
+        </div>
+        <div class="form-field" style="margin-top:var(--sp-4)">
+          <label for="bTelefon">Handynummer des Kunden *</label>
+          <input type="tel" id="bTelefon" name="telefon" class="form-input"
+                 placeholder="0170 1234567" required autocomplete="tel" inputmode="tel">
+          <small style="color:var(--sc-ink-muted);font-size:.8125rem;margin-top:.25rem;display:block">
+            Deutsche Formate werden automatisch erkannt (0170..., +49170..., 0152...)
+          </small>
+        </div>
+        <div style="margin-top:var(--sp-6)">
+          <button type="submit" class="btn-cta">WhatsApp-Nachricht generieren</button>
+        </div>
+      </form>
+
+      <!-- Ergebnis -->
+      <div id="bewertungResult" class="bewertung-result">
+        <p style="font-weight:600;color:var(--sc-ink);margin:0 0 var(--sp-3)">Ihre personalisierte Nachricht ist bereit:</p>
+        <div class="bewertung-actions">
+          <a id="bewertungWaLink" href="#" target="_blank" rel="noopener noreferrer"
+             class="btn-cta">In WhatsApp öffnen</a>
+          <button type="button" id="bewertungCopyBtn" class="btn-secondary">Link kopieren</button>
+        </div>
+      </div>
+
+      <!-- DSGVO-Hinweis -->
+      <div class="bewertung-dsgvo">
+        🔒 Datenschutz: Kundenname und Telefonnummer werden ausschließlich lokal im Browser zur Generierung des WhatsApp-Links verwendet und zu keinem Zeitpunkt auf Servern gespeichert.
+      </div>
+      
+      <div style="margin-top:var(--sp-6);text-align:center">
+        <a href="/" style="color:var(--sc-ink-muted);font-size:0.875rem;text-decoration:none">&larr; Zurück zur Hauptseite Saridis SHK</a>
+      </div>
+    </div>
+  </main>
+  <script src="assets/js/bewertung.js" defer></script>
+</body>
+</html>
