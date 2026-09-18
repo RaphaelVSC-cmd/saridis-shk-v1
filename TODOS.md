@@ -5,7 +5,7 @@
 - [ ] SETUP: Formspree Form-ID in index.html eintragen (formspree.io, kostenlos)
 - [ ] SETUP: Plausible.io Domain ODER Clarity Projekt-ID eintragen
 - [ ] SETUP: Domain aufschalten (CNAME auf saridis-shk-v1.vercel.app)
-- [ ] [MANUELL PRUEFEN: Inhabername - Quelle: handelsregister.de / Handwerksrolle]
+- [x] Inhabername verifiziert: Panagiotis Saridis (Quelle: Notion CRM)
 - [ ] [MANUELL PRUEFEN: HWK-Kammer-Eintrag (HWK für München und Oberbayern)]
 - [ ] [MANUELL PRUEFEN: E-Mail-Adresse des Betriebs]
 - [ ] [MANUELL PRUEFEN: Exakte Öffnungszeiten verifizieren]

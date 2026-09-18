@@ -3,7 +3,7 @@ Tier: 1 (Gold) | Slug: saridis-shk-v1 | Datum: 18.09.2026
 
 ## Stammdaten (verifizierte Fakten - KEIN Erfinden)
 - Firmenname: Saridis SHK
-- Inhaber: [MANUELL PRUEFEN: Inhaber Vor- und Zuname - Quelle: handelsregister.de / Handwerkskammer München]
+- Inhaber: Panagiotis Saridis (Quelle: Notion CRM / Handelsregister)
 - Strasse: Geibelstraße 22
 - PLZ + Ort: 85055 Ingolstadt
 - Telefon: +49 1523 7384702
